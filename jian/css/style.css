@@ -340,6 +340,7 @@ div#qingkong {
 input#su-2 {
     width: 79px;
     box-sizing: border-box;
+    background: #3385ff
 }
 
 #kw-2 {
@@ -362,6 +363,7 @@ input#su-2 {
 	input#su-2{
 		position: absolute;
     	right: 0;
+    	background: #484848
 	}
 }
 .keylist {
