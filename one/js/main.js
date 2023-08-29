@@ -53,13 +53,6 @@ if (storage.bg != undefined) {
     $('#main').css('background-image', bg[0]);
 }
 
-// 检查是否有新版本
-if (storage.closealert != undefined) {
-    closealert = closealert.split(',');
-    if (closealert[0] == '4.1.2') {
-        $('#alert').remove();
-    }
-}
 
 // rgb to hex
 function rgb2hex(rgb) {
@@ -76,13 +69,13 @@ function rgb2hex(rgb) {
 $(function() {
         var bookmark = {
             data: [{
-                name: '开发日志',
-                link: 'https://kksan.top/f5404b68deeb4634b39dac0bc67ec693',
+                name: '腾讯翻译',
+                link: 'https://transmart.qq.com/zh-CN/index',
                 box_shadow: '#F18033',
                 icon: 'img/log.png',
             }, {
-                name: '酷安',
-                link: 'https://www.coolapk.com',
+                name: '新标签🏷️',
+                link: 'https://go.itab.link/',
                 box_shadow: '#11B063',
                 icon: 'img/coolapk.png',
             }, {

@@ -5,9 +5,8 @@ li{ list-style: none; float: left}
 a{ text-decoration: none}
 <!-- 注意！下方引用的是存储在网络，而非项目文件夹内的背景图片文件 -->
 body {	
-	background-image: url(https://dimg04.c-ctrip.com/images/0391u1200099uc69r5AAF.png);
+	background: url(https://dimg04.c-ctrip.com/images/0391u1200099uc69r5AAF.png) no-repeat;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -257,9 +256,10 @@ body {
 }
 .jj-list-tit{
 	font-size: 16px;
+	font-weight: bold;
 	line-height: 25px;
-	color: #ffffff;
-	padding-left: 4px;
+	color: #696969;
+	text-align: center;
 	z-index: 1;
 }
 .jj-list-con{
@@ -267,7 +267,7 @@ body {
 	z-index: 1;
 }
 .jj-list-con li{
-	width: 110px;
+	width: 80px;
 	margin: 3px 3px;
 }
 .link-3{
@@ -276,15 +276,15 @@ body {
 	color: #FFF;
 	font-size: 13px;
 	text-align: center;
-	line-height: 35px;
+	line-height: 32px;
 	padding: 4px 0;
 	border-radius: 2px;
 	transition: all 0.2s;
 	z-index: 1;
 }
 .link-3:hover{
-	background: rgba(0,0,0,.45);
-	font-size: 15px;
+	background: rgba(0,100,0,.45);
+	font-size: 16px;
 	font-weight: bold
 }
 
