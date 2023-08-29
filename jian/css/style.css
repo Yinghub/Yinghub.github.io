@@ -4,11 +4,7 @@ img { border-style: none;}
 li{ list-style: none; float: left}
 a{ text-decoration: none}
 <!-- 注意！下方引用的是存储在网络，而非项目文件夹内的背景图片文件 -->
-body {	
-	background: url(https://dimg04.c-ctrip.com/images/0391u1200099uc69r5AAF.png) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
+
 
 /*百度搜索*/
 .baidu{

@@ -124,7 +124,7 @@ $('.Select-box-2 ul').hover(function () {
 $('.Select-box-2 li').click(function () {
 	var _tihs = $(this).attr('class');
 	var _html = $(this).html();
-	var _name = 'wd';
+	var _name = 'q';
 	if (_tihs == 'this_s') {
 		return "";
 	}
