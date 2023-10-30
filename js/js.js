@@ -134,6 +134,9 @@ $('.Select-box-2 li').click(function () {
 	} else if (_tihs == 'google_s') {
 		_tihs = 'https://www.google.com/search';
 		_name = 'q';
+	} else if (_tihs == 'google_7') {
+		_tihs = 'https://google.nite07.org/search';
+		_name = 'q';		
 	} else if (_tihs == 'bing_s') {
 		_tihs = 'https://www.bing.com/search';
 		_name = 'q';
